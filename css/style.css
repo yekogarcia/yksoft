@@ -76,3 +76,38 @@ ul li{
   color: #eee;
   font-weight: bold;
 }
+.router{
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  float: right;
+  padding:10px;
+  display: inline;
+  color: #eee;
+  font-weight: bold;
+}
+.router-link-exact-active{
+  color: var(--primary);
+}
+.footer{
+  width:  100%;
+  height: auto;
+  background-color: var(--secondary);
+  bottom: 0;
+  display: flex;
+  color: #eee;
+  justify-content: center;
+}
+.footer h3{
+  color: #eee;
+}
+.information, .red_social{
+  padding: 20px;
+  width: 30%;
+  display: block;
+}
+.information p{
+  padding: 0;
+  margin: 0;
+}
